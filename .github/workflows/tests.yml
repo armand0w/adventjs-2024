@@ -1,0 +1,22 @@
+name: Jest test
+
+on:
+  push:
+    branches:
+      - develop
+  workflow_dispatch:
+
+permissions: write-all
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run Jest
+        uses: willcaul/jest-github-action@v4
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          test-command: "npm run test"
