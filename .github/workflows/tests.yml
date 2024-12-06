@@ -14,9 +14,13 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-      - name: Run Jest
-        uses: willcaul/jest-github-action@v4
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
         with:
-          test-command: "npm run test"
+          node-version: "22"
+
+      - name: Dependencies
+        run: npm install
+
+      - name: Run test
+        run: npm test
