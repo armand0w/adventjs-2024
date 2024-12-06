@@ -1,4 +1,4 @@
-import { createFrame } from '../src/day-2'
+import { createFrame } from './index'
 
 describe('Day 2', () => {
     test('Test 1', () => {

@@ -1,4 +1,4 @@
-import {createXmasTree} from '../src/day-4'
+import { createXmasTree } from './index'
 
 describe('Day 4', () => {
     test('Test 1', () => {

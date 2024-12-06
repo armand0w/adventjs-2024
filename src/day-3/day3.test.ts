@@ -1,4 +1,4 @@
-import { organizeInventory } from '../src/day-3'
+import { organizeInventory } from './index'
 
 describe('Day 3', () => {
     test('Test 1', () => {

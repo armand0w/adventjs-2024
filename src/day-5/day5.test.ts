@@ -1,4 +1,4 @@
-import {organizeShoes, Shoe} from '../src/day-5'
+import { organizeShoes, Shoe } from './index'
 
 describe('Day 5', () => {
     test('Test 1', () => {

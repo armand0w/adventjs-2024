@@ -1,4 +1,4 @@
-import { prepareGifts } from '../src/day-1'
+import { prepareGifts } from './index'
 
 describe('Day 1', () => {
     test('Test 1', () => {
