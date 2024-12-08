@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --coverage --json --testLocationInResults --outputFile=jest.results.json"
   },
   "keywords": [],
   "author": "",
