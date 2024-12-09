@@ -1,3 +1,5 @@
+# Day #6
+
 Ya hemos empaquetado cientos de regalos 🎁… pero a un elfo se le ha olvidado revisar si el regalo, representado por un asterisco *, está dentro de la caja.
 
 La caja tiene un regalo (*) y cuenta como dentro de la caja si:

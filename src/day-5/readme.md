@@ -1,3 +1,5 @@
+# Day #5
+
 Los elfos 🧝🧝‍♂️ de Santa Claus han encontrado un montón de botas mágicas desordenadas en el taller. Cada bota se describe por dos valores:
 
     type indica si es una bota izquierda (I) o derecha (R).
