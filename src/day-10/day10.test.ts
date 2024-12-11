@@ -1,6 +1,6 @@
 import {compile} from './index'
 
-describe('Day 9', () => {
+describe('Day 10', () => {
     test('Test 1', () => {
         const instructions = [
             'MOV -1 C', // copia -1 al registro 'C',
