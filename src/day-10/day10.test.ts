@@ -1,4 +1,4 @@
-import {compile} from './index'
+import { compile } from './index'
 
 describe('Day 10', () => {
     test('Test 1', () => {

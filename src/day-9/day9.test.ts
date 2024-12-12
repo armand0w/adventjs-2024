@@ -1,4 +1,4 @@
-import {moveTrain} from './index'
+import { moveTrain } from './index'
 
 describe('Day 9', () => {
     test('Test 1', () => {

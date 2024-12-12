@@ -1,4 +1,4 @@
-import {decodeFilename} from './index'
+import { decodeFilename } from './index'
 
 describe('Day 11', () => {
     test('Test 1', () => {
